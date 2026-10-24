@@ -1,0 +1,28 @@
+{
+  "name": "zsu",
+  "interface": {
+    "displayName": "Plugins by zsu"
+  },
+  "plugins": [
+    {
+      "name": "data-analyst",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/zsu/data-analyst.git",
+        "path": "./plugins/data-analyst",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data",
+      "description": "Answer questions with official U.S. government data (BEA, BLS, FRED, Census, Treasury, OPM and 35+ more): CSV data plus an audited short answer, or an audited HTML report.",
+      "interface": {
+        "displayName": "Data Analyst",
+        "shortDescription": "Answers from official U.S. government data, with CSVs and an audit",
+        "developerName": "zsu"
+      }
+    }
+  ]
+}

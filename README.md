@@ -51,19 +51,6 @@ trust the folder. Plugins from external repos still need `claude plugin install 
 }
 ```
 
-### Moving from the old `zsu/data-analyst` marketplace
-
-The `zsu` marketplace used to live in the data-analyst repo. If you added it from there, remove it and add
-it again from this catalog. The plugin id stays `data-analyst@zsu`.
-
-```
-/plugin marketplace remove zsu
-/plugin marketplace add zsu/agent-plugins
-/plugin install data-analyst@zsu
-```
-
-In Codex: `codex plugin marketplace remove zsu`, then `codex plugin marketplace add zsu/agent-plugins`.
-
 ## Layout
 
 Each branch has its catalog at the repo root, because both CLIs read the manifest from the root of the

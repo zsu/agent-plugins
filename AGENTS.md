@@ -5,7 +5,7 @@ This repo is a catalog. It holds no plugin code. Two marketplaces live on two br
 | Branch | Marketplace | Added as |
 |---|---|---|
 | `main` (default) | `zsu` | `zsu/agent-plugins` |
-| `dev` (orphan) | `zsu-dev` | `zsu/agent-plugins@dev` |
+| `dev` | `zsu-dev` (separate dev marketplace) | `zsu/agent-plugins@dev` |
 
 `main` must stay the default branch. claude.ai organization sync reads only the default branch.
 

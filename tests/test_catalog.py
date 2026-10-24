@@ -1,4 +1,4 @@
-"""Offline checks for the catalog on this branch: the Claude and Codex marketplaces list the same
+"""Offline checks for the catalog: the Claude and Codex marketplaces list the same
 plugins under the same name, and every plugin installs from GitHub (no relative sources, no versions)."""
 import json
 import re
@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 KEBAB = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
-NAMES = {"zsu", "zsu-dev"}  # main = zsu, dev = zsu-dev
+NAMES = {"zsu"}
 RESERVED_PLUGIN_PREFIXES = ("claude-", "anthropic-", "openai-")
 REMOTE = {"github", "url", "git-subdir"}
 LOCAL_PATH = re.compile(r"(?<![A-Za-z])[A-Za-z]:\\[A-Za-z]|/Users/[a-z]|/home/[a-z]|\\Users\\")

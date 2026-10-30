@@ -5,7 +5,7 @@ in its own GitHub repo and installs from there.
 
 | Marketplace | Plugins | Add it with |
 |---|---|---|
-| `zsu` | [data-analyst](https://github.com/zsu/data-analyst) | `zsu/agent-plugins` |
+| `zsu` | [data-analyst](https://github.com/zsu/data-analyst), [rsi-skill](https://github.com/zsu/rsi-skill) | `zsu/agent-plugins` |
 
 ## Install
 

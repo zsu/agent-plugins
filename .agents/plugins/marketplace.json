@@ -23,6 +23,26 @@
         "shortDescription": "Answers from official U.S. government data, with CSVs and an audit",
         "developerName": "zsu"
       }
+    },
+    {
+      "name": "rsi-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/zsu/rsi-skill.git",
+        "path": "./plugins/rsi-skill",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools",
+      "description": "Recursively improve an Agent Skill: fresh eval cases each iteration, headless sandboxed runs, and promotion only on held-out evidence, until a goal is met or the budget runs out.",
+      "interface": {
+        "displayName": "RSI Skill",
+        "shortDescription": "Evaluate and improve a skill until a goal is met",
+        "developerName": "zsu"
+      }
     }
   ]
 }

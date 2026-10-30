@@ -17,6 +17,18 @@
       "description": "Official U.S. government data (BEA, BLS, FRED, Census, Treasury, OPM, USAspending, CDC, Congress.gov, EPA and more) as CSV plus an audited short answer or HTML report.",
       "category": "data",
       "tags": ["government-data", "economics", "statistics"]
+    },
+    {
+      "name": "rsi-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "zsu/rsi-skill",
+        "path": "plugins/rsi-skill",
+        "ref": "main"
+      },
+      "description": "Recursive self-improvement for Agent Skills: generates fresh eval cases every iteration, runs the target skill headless in sandboxes, grades findings, promotes a challenger only on held-out evidence, and stops on goal, budget, plateau or an unreachable goal.",
+      "category": "development",
+      "tags": ["skills", "evals", "self-improvement"]
     }
   ]
 }
